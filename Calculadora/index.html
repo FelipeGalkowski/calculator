@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+
+    <div id="container">
+
+        <input type="text" id="display" disabled>
+
+        <div class="teclado">
+
+            <button class="clearDelete" onclick="clearDisplay()">C</button>
+            <button class="clearDelete" onclick="apagarUltimo()">⌫</button>
+
+            <button class="number" onclick="adicionarDigito('1')">1</button>
+            <button class="number" onclick="adicionarDigito('2')">2</button>
+            <button class="number" onclick="adicionarDigito('3')">3</button>
+            <button class="signMat" onclick="adicionarDigito('/')">÷</button>
+
+            <button class="number" onclick="adicionarDigito('4')">4</button>
+            <button class="number" onclick="adicionarDigito('5')">5</button>
+            <button class="number" onclick="adicionarDigito('6')">6</button>
+            <button class="signMat" onclick="adicionarDigito('*')">X</button>
+
+            <button class="number" onclick="adicionarDigito('7')">7</button>
+            <button class="number" onclick="adicionarDigito('8')">8</button>
+            <button class="number" onclick="adicionarDigito('9')">9</button>
+            <button class="signMat" onclick="adicionarDigito('-')">-</button>
+
+            <button class="number" onclick="adicionarDigito('0')">0</button>
+            <button class="number" onclick="adicionarDigito('.')">.</button>
+            <button class="result" onclick="calcular()">=</button>
+            <button class="signMat" onclick="adicionarDigito('+')">+</button>
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>

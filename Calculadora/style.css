@@ -1,0 +1,86 @@
+body {
+    background-image: linear-gradient(to left, rgb(129, 207, 252), rgb(0, 119, 255));
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+
+
+#container {
+    width: 15vw;
+    height: 50vh;
+    border-radius: 16px;
+    background-color: #303030;
+    opacity: 0.9;
+}
+
+#display {
+    background-color: transparent;
+    width: 12vw;
+    height: 10vh;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-align: right;
+}
+
+.teclado {
+    width: 12vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.number {
+    background-color: #ffffff;
+}
+
+.signMat,
+.result,
+.number {
+    border: none;
+    width: 2.8vw;
+    height: 6vh;
+    border-radius: 50%;
+    font-family: Arial, sans-serif;
+    font-style: none;
+    color: #000000;
+    cursor: pointer;
+    margin: 1% 0;
+}
+
+.signMat:hover,
+.result:hover,
+.number:hover,
+.clearDelete:hover {
+    opacity: 0.8;
+}
+
+
+.signMat,
+.result,
+.clearDelete {
+    background-color: #ffaf38;
+}
+
+.clearDelete {
+    border: none;
+    border-radius: 16px;
+    width: 5vw;
+    height: 3vh;
+    margin: 1%;
+    cursor: pointer;
+
+
+
+}
